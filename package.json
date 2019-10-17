@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
-    "start": "next start",
+    "dev": "nodemon server.js",
+    "start": "NODE_ENV=production node server.js",
     "build": "next build"
   },
   "keywords": [],
@@ -13,11 +13,17 @@
   "license": "ISC",
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
+    "express": "^4.17.1",
     "isomorphic-fetch": "^2.2.1",
     "next": "^9.1.1",
     "node-sass": "^4.12.0",
     "nprogress": "^0.2.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2"
+  },
+  "devDependencies": {
+    "next-workbox-webpack-plugin": "^2.1.1",
+    "nodemon": "^1.19.4",
+    "webpack-pwa-manifest": "^4.1.1"
   }
 }
