@@ -1,0 +1,23 @@
+{
+  "name": "nextjs-pwa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^9.1.1",
+    "node-sass": "^4.12.0",
+    "nprogress": "^0.2.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  }
+}
